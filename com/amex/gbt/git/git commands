@@ -1,1 +1,37 @@
 git pull --rebase
+
+Initial check in :
+
+To push your local project to GitHub, you can follow these steps:  
+Navigate to your project directory in your terminal.  
+Initialize the local directory as a Git repository:
+
+git init
+
+1.Add all the files in your local repository. This stages them for the first commit.
+
+git add .
+
+2.Commit the files that you've staged in your local repository:
+
+git commit -m "First commit"
+
+3.At the top of your GitHub repository's Quick Setup page, click the clipboard icon to copy the remote repository URL.  
+In your terminal, add the URL for the remote repository where your local repository will be pushed
+
+git remote add origin <remote repository URL>
+
+git remote add origin https://github.com/learnwithbapun/FirstSpringApp.git
+
+if exist already -- git remote set-url origin https://github.com/learnwithbapun/FirstSpringApp.git
+
+
+Replace <remote repository URL> with the URL you copied in the previous step.(First we need to create the repository in github)
+
+<https://github.com/learnwithbapun/FirstSpringApp.git>
+
+4.Push the changes in your local repository to GitHub:
+
+git push -u origin master
+
+Now, your local project has been pushed to your GitHub repository.
