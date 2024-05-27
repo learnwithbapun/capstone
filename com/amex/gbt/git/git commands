@@ -1,5 +1,4 @@
 git pull --rebase
-
 Initial check in :
 
 To push your local project to GitHub, you can follow these steps:  
@@ -35,3 +34,4 @@ Replace <remote repository URL> with the URL you copied in the previous step.(Fi
 git push -u origin master
 
 Now, your local project has been pushed to your GitHub repository.
+
