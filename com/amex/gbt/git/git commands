@@ -39,3 +39,6 @@ Commands:
 
 git pull --rebase
 
+git checkout HEAD~4 -- This command moves the HEAD pointer to that previous commit, allowing you to view or work on the project as it was at that point in time
+
+
