@@ -1,5 +1,21 @@
 Initial check in :
 
+BY SC*
+[[
+git  init 
+git add .
+git commit -m "Adding"
+git log
+git branch -a
+git branch f1 -- to create new branch 
+
+git checkout f1
+git push origin f1
+
+
+
+]]
+
 To push your local project to GitHub, you can follow these steps:  
 Navigate to your project directory in your terminal.  
 Initialize the local directory as a Git repository:
@@ -51,6 +67,9 @@ q- quit
 space - next pager
 b-back logs
 
+--
+:wq!
+
 RESET/REVERT :
 
 git reset HEAD~1
@@ -58,5 +77,12 @@ git revert HEAD
 
 CHERRY PICK :
 
+git rebase -i HEAD~4
+git rebase -i
+git cherry-pick
+
+Commands from the recordings :
+
+git checkout -b bugFix
 
 
