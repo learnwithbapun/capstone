@@ -42,3 +42,21 @@ git pull --rebase
 git checkout HEAD~4 -- This command moves the HEAD pointer to that previous commit, allowing you to view or work on the project as it was at that point in time
 
 
+git branch -f main HEAD~3
+git log -1 HEAD
+git branch --show -current
+
+in linux system --
+q- quit 
+space - next pager
+b-back logs
+
+RESET/REVERT :
+
+git reset HEAD~1
+git revert HEAD
+
+CHERRY PICK :
+
+
+
