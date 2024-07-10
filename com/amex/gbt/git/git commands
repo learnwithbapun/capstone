@@ -87,4 +87,6 @@ git checkout -b bugFix
 git merge bugFix
 git branch -a 
 
+Fast Forward Merge :
+
 
