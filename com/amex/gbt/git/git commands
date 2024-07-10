@@ -99,3 +99,13 @@ git rebase a day keeps your merge conflicts away
 
 HEAD:
 Detached Head :  When HEAD commits to a commit instaed of pointing to a branch
+
+
+REMOTE :
+
+git fetch 
+git merge 
+
+git pull = git fetch + git merge
+
+git fetch , git rebase ,git merge ==> git   pull --rebase (Both will same & best approach)
