@@ -95,3 +95,7 @@ Rebasing :
 git checkout f1
 git rebase main
 
+git rebase a day keeps your merge conflicts away
+
+HEAD:
+Detached Head :  When HEAD commits to a commit instaed of pointing to a branch
