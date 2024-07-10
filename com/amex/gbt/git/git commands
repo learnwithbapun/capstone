@@ -108,4 +108,18 @@ git merge
 
 git pull = git fetch + git merge
 
-git fetch , git rebase ,git merge ==> git   pull --rebase (Both will same & best approach)
+git fetch + git rebase + git merge ==> git   pull --rebase (Both will same & best approach)
+
+
+git remote add origin "" -- to add remote repository
+
+git remote -v -- to check the remote repository
+
+git remote get-url origin -- to get the remote repository
+
+git push -u origin main -- to push the code to remote repository
+
+git branch -a -- to check the branches
+
+git push -u origin f1 -- to push the branch to remote repository
+
