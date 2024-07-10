@@ -35,10 +35,12 @@ https://docs.spring.io/spring-framework/reference/core/beans/introduction.html
 https://docs.spring.io/spring-framework/reference/overview.html
 https://spring.io/guides/gs/rest-service/
 https://spring.io/
-Deepak Kasera9:46 PM
 https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90
-Deepak Kasera9:20 PM
 https://docs.google.com/document/d/1Gn2ib5YhhpcFUiWGAUbCpg0ZPh3m_wSA-9IolGMjkIE/edit?usp=sharing
 
+
+
+command to run Spring project :
+mvn spring-boot:run
 
 
