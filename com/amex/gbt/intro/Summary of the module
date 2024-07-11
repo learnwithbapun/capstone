@@ -43,4 +43,22 @@ https://docs.google.com/document/d/1Gn2ib5YhhpcFUiWGAUbCpg0ZPh3m_wSA-9IolGMjkIE/
 command to run Spring project :
 mvn spring-boot:run
 
+class  -6
+
+logging.level.org.springframework.web=TRACE
+
+Stateless vs Stateful
+Stateless: Stateless means there is no state stored between requests.
+ Each request from a client to the server must contain all the information required to understand the request, and cannot take advantage of any stored context on the server. Stateless is the default behavior of HTTP, but it can be overridden by the developer.
+
+Every object should be self-sufficient & completely independent to return the response.
+
+ Stateful: Stateful means the server stores state information for the client and every client request must contain all the information required by the server 
+ to fulfill the request. The server can store state information for a client in a variety of ways, 
+ such as in a session object that is available to all resources in the application.
+
+
+Class - 7
+
+
 
