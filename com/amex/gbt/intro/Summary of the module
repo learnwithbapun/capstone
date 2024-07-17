@@ -84,5 +84,28 @@ Censor Board during movie release -- @ControllerAdvice
 
 Class - 10:
 
+https://www.uuidgenerator.net/
+
+https://vladmihalcea.com/blog/
+https://thorben-janssen.com/
+
+UUID -- > if we use int -- maximum 2B can be used
+better togo with BigInt/Long -- it can be capable till 8B
+
+Auto increment -- its an issue if the API exposing getID api anyone can easily fetch last 24 ID data -- Web Scraping -- soits not a good idea if api exposing  getID api .
+autoincrement is bad in everyway
+UUID == > fun(machine ID  + user id , IP ,timestamp,  -- - -- - - - )n number of parameters 
+UUID 128 bit number -- 
+
+Class -11:
+
+Inheritence in DB :
+-- Mapped Super Class
+--Joined Table(Best Solution)
+--Table Per class
+-- Single Table class(Worst Solution)
+
+
+
 
 
