@@ -105,6 +105,32 @@ Inheritence in DB :
 --Table Per class
 -- Single Table class(Worst Solution)
 
+Class - 12
+https://www.baeldung.com/hibernate-inheritance
+https://github.com/deepakkasera/ProductServiceMar24
+
+
+Database setup commands
+create database productserviceevebatch;
+create user productserviceevebatchuser;
+grant all privileges on productserviceevebatch.* to productserviceevebatchuser;
+
+
+https://spring.io/guides/gs/accessing-data-mysql
+https://mvnrepository.com/
+
+MYSQL Credential :
+
+Data base setup command:
+
+create database productservice;
+create user paridabapun;
+grant all privileges on productservice.* to paridabapun;
+
+
+
+
+
 
 
 
