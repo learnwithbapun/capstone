@@ -1,0 +1,93 @@
+1. What is RestTemplate and implement sample program with it.
+2. ⁠What is the use of CascadeTyoe.Remove
+3. ⁠What is the use of @MappedSuperClass annotation.
+4. ⁠Difference between spring and spring boot
+5. ⁠Use of @Restcontroller and @RequestMapping
+6. ⁠use of Fetch type eager and Lazy.
+7. ⁠Implement payment GW with rest api supportable that should follow code reusability, maintainability and extensibility.
+
+
+How JWT works?
+Auth Server will create a json request with userinfo and claims. This information is signed using the public key.
+At the time of validation userinfo and claims json again signed with the algo mentioned in JWT token and then both signature are compare.
+If both are same then it means JWT token is not modified. If mismatch then it's modified or temperated before sending to Auth or Resource Server at the time of validation.
+
+So Algorithm which are use are Hashing Algorithm not a encryption
+
+
+Company :
+NICE :
+
+Explain a custom implementation on ArrayList.
+class ArrayList<T> {
+    T[] arr = new T[100];
+    int currIndex = 0;
+public void add(T element) {
+    arr[currIndex] = element;
+    currIndex++;
+}
+
+public T get(int index) {
+    return arr[index];
+}
+
+2. Explain complexity analysis of LinkedList.
+Response: Access by index, insertion at the beginning, and deletion at the beginning all have O(1) complexity. Insertion, deletion at the end or a given position, and searching have O(n) complexity.
+
+3.Explain Constructor Chaining.
+
+Response: Constructor chaining involves calling a sequence of constructors.
+public class A {
+    final Employee E1 = new Employee("ABC");
+abstract class A {
+    A() {
+        System.out.println("A's constructor");
+        display();
+    }
+
+    abstract void display();
+}
+
+class B extends A {
+    private int value = 42;
+
+    void display() {
+        System.out.println("Value in B: " + value);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        B b = new B();
+        b.display();
+    }
+}
+
+}
+How would you ensure that the retrieved data is sorted in ascending order based on the CourseID?
+
+
+SELECT StudentName, CourseID 
+FROM Student 
+JOIN StudentCourse ON Student.EnrollNo = StudentCourse.EnrollNo 
+ORDER BY StudentCourse.CourseID ASC;
+
+
+===
+
+
+Why Does an Exception occur in Java?
+An exception can occur due to several reasons like a network connection problem, bad input provided by a user, or opening a non-existing file in your program. In Java, an exception is an “unwanted or unexpected event” that occurs during the execution of the program, causing its termination. To avoid these termination conditions, a try-catch block can be used.
+
+
+
+Cultural Fitment Round :
+
+How do you approach troubleshooting production code issues?
+
+Could you explain how refactoring is typically conducted?
+
+Explain your process of debugging and performance testing.
+
+Why are you interested in switching roles?
+
