@@ -127,6 +127,33 @@ create database productservice;
 create user paridabapun;
 grant all privileges on productservice.* to paridabapun;
 
+class 13:
+https://docs.spring.io/spring-data/jpa/reference/repositories/projections.html
+https://github.com/deepakkasera/ProductServiceMar24
+
+JPABuddy
+
+{ "title" : "iphone 15 pro", "description" : "Latest iphone", "price" : "150000", "category" : { "description" : "iphone" }, "image" : "imageURL" }
+
+https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html#:~:text=Using%20named%20queries%20to%20declare,them%20to%20the%20domain%20class
+https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html#:~:text=Using%20named%20queries%20to%20declare,them%20to%20the%20domain%20class
+
+https://docs.spring.io/spring-data/jpa/reference/repositories/query-methods-details.html
+
+https://docs.google.com/document/d/1rJQqAUXpIwDqPrVRQQwo70GcvMs5sgDb6IQnwdvXkQA/edit#heading=h.uj8r8fo8vac
+
+
+Class -14
+
+
+Class -15(Backend Projects: Unit Testing)
+
+
+Class -16(Backend Projects Testing Good Practices, Mocking, Types of Doubles)
+
+
+Class - 17(Backend Projects: Testing 3)
+
 
 
 
