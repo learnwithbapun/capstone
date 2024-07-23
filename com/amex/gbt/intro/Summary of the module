@@ -151,7 +151,7 @@ Test Driven Development
 Flaky Test Cases
 
 Types of Testing :
--- unit testing(Testing the code in isolation)
+-- Unit testing(Testing the code in isolation)
 
 
 Class -16(Backend Projects Testing Good Practices, Mocking, Types of Doubles)
