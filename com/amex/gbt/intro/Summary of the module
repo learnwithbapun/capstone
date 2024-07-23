@@ -152,6 +152,13 @@ Flaky Test Cases
 
 Types of Testing :
 -- Unit testing(Testing the code in isolation)
+-- Integration Testing (Some Mocking may be )
+-- Funtional Testing (Real Testing No mocking )
+
+github actions(triggers)
+
+SIT -- System Integration Testing
+UAT -- User Acceptance Testing
 
 
 Class -16(Backend Projects Testing Good Practices, Mocking, Types of Doubles)
