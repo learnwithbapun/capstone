@@ -166,6 +166,23 @@ Class -16(Backend Projects Testing Good Practices, Mocking, Types of Doubles)
 
 Class - 17(Backend Projects: Testing 3)
 
+3A & 3C -- Aarange  -- Create Test class 
+      Act  -- Call the method 
+      Assert -- 
+
+Dependency :
+
+assert j -core 
+
+
+--
+@MockBean
+assertTrue()
+assertEqual()
+assertThrow()
+assertSame()
+
+
 
 
 
