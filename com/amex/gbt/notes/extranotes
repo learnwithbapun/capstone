@@ -1,0 +1,18 @@
+Java -> large enterprise application (handle loads, data, large memory foot print, concurrency, slow development)
+Nodejs-> microservice application(less memory foot print, consume less resource, fast development, concurrency is not great, it single threaded bcz it used javascript)
+Golang-> concurrency, less CPU utilization, good for server application like(docker, kubernetes), not very large community, less libraries
+Python-> for data analytics, machine learning, performance is poor compare to other language like java etc
+C# (.net) -> for window based application, desktop application, more rely on windows(but now they are making it cross platform)
+Php-> for small website, dynamic website, where you want to have frontend+backend together
+Kotlin-> android applications
+Swift-> iOS-based applications
+c/c++ -> IoT devices, hardware level access, super fast, OS level, kernels building, databases.
+Rust-> same as c/C++ but memory safety and fast as well as compared to high level language
+
+AWS cloud, Netflix, are making use of java as their backend. There are more eg as well.
+But this does not mean you cannot use above mention languages for other use cases. We can but it might not be best fit kind of anti pattern.
+
+All the languages are made for different use case. At surface level we might able to see majority of the general purpose are used for majority use cases like (web, desktop, database, server level) uses cases. But at deeper level every language have it own pros and cons.
+
+These are my findings so far when finding a suitable language for specific use cases. Feel free to add more to this and would like to hear from the community to have more knowledge on this.
+
