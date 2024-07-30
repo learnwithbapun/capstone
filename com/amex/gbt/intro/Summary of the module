@@ -128,6 +128,21 @@ create user paridabapun;
 grant all privileges on productservice.* to paridabapun;
 
 class 13:
+
+
+Query Method :
+-Declared Query 
+-HQL
+-SQL
+
+--> Representing cardinalities :
+
+--> Mapped By
+--> Cascading
+
+Fetch Type: --Eager & Lazy 
+--> Schema Verioning
+
 https://docs.spring.io/spring-data/jpa/reference/repositories/projections.html
 https://github.com/deepakkasera/ProductServiceMar24
 
@@ -144,6 +159,8 @@ https://docs.google.com/document/d/1rJQqAUXpIwDqPrVRQQwo70GcvMs5sgDb6IQnwdvXkQA/
 
 
 Class -14
+
+
 
 
 Class -15(Backend Projects: Unit Testing):
