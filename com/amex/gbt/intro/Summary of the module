@@ -169,6 +169,26 @@ https://mvnrepository.com/artifact/org.flywaydb/flyway-core/10.11.0
 https://www.baeldung.com/jpa-cascade-types
 https://notability.com/n/0rsFiPFmx3ceDQe~cjWe7j
 
+--> Representing cardinalities :
+
+--> Mapped By
+--> Cascading
+
+Schema versioning :
+
+librry :
+
+Flyway
+liguibase
+
+
+JPA Buddy + JPA Explorer  tools more life easy 
+
+
+N+1 problem :
+
+Catogy --> Products fetchinh will enhance using custcom query to avoid n+1 problem 
+
 
 
 Class -15(Backend Projects: Unit Testing):
@@ -206,6 +226,33 @@ assertTrue()
 assertEqual()
 assertThrow()
 assertSame()
+
+class -18 Backend Projects: Authentication - 1: Auth v/s Auth, Tokens, BCrypt:
+
+Authentication 
+Authorization 
+RBAC(Role Base Authentication control)
+
+jwt.io
+https://notability.com/n/ftDmx_8O56NGeuOGR9ax_
+https://auth0.com/blog/hashing-in-action-understanding-bcrypt/
+
+https://www.okta.com/identity-101/authentication-vs-authorization/
+https://www.okta.com/identity-101/authentication-vs-authorization/
+https://mailsafi.com/blog/top-200-most-common-passwords/
+
+Class : 19
+
+JWT
+OAuth
+Implementing UserService
+
+https://www.base64decode.org/
+https://www.base64encode.org/
+
+https://datatracker.ietf.org/doc/html/rfc6749  -- This is answer all the queries anyone have relate dot authentication and OAuth
+
+Class : 20(OAuth___UserService)
 
 
 
