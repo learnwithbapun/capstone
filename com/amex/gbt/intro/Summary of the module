@@ -132,8 +132,11 @@ class 13:
 
 Query Method :
 -Declared Query 
--HQL --> Hibernate Query Language
--SQL
+-HQL --> Hibernate Query Language(we can use entity name directly in the query with projection also )
+-SQL --> native Query -- nativeQuery = true
+
+Projection i missed -- 2:18 hr --> //it will help if you have 2 attribute -- 
+
 
 --> Representing cardinalities :
 
@@ -158,8 +161,13 @@ https://docs.spring.io/spring-data/jpa/reference/repositories/query-methods-deta
 https://docs.google.com/document/d/1rJQqAUXpIwDqPrVRQQwo70GcvMs5sgDb6IQnwdvXkQA/edit#heading=h.uj8r8fo8vac
 
 
-Class -14
+Class -14( Backend Projects: Cardinalities, Fetch Modes & Schema Migration)
 
+https://www.baeldung.com/hibernate-fetchmode
+https://mvnrepository.com/artifact/org.flywaydb/flyway-mysql/10.11.0
+https://mvnrepository.com/artifact/org.flywaydb/flyway-core/10.11.0
+https://www.baeldung.com/jpa-cascade-types
+https://notability.com/n/0rsFiPFmx3ceDQe~cjWe7j
 
 
 
