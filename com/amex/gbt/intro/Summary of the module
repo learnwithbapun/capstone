@@ -132,7 +132,7 @@ class 13:
 
 Query Method :
 -Declared Query 
--HQL
+-HQL --> Hibernate Query Language
 -SQL
 
 --> Representing cardinalities :
