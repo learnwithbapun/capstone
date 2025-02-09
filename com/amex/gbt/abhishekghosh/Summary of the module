@@ -5,5 +5,46 @@ Group :  https://chat.whatsapp.com/GziKblvNmd1EQKiRh82aVj
 
 Project Requirement :
 https://docs.google.com/document/d/1Gn2ib5YhhpcFUiWGAUbCpg0ZPh3m_wSA-9IolGMjkIE/edit?tab=t.0#heading=h.hteovoit9b96
+---
 
+
+A Version Control System (VCS) is a software tool that helps manage changes to source code or other collections of files over time.
+It allows multiple developers to collaborate on a project, track changes, and revert to previous versions if necessary.
+
+
+Types of Version Control Systems::
+
+Local Version Control System:
+
+Stores versions of files locally on the developer's computer. Example: RCS (Revision Control System).
+Centralized Version Control System (CVCS):
+
+Uses a central server to store all versions of files, and developers check out files from this central repository. Example: SVN (Subversion), CVS (Concurrent Versions System).
+Distributed Version Control System (DVCS):
+
+Each developer has a complete copy of the repository, including its full history. Changes can be shared between repositories. Example: Git, Mercurial.
+
+
+2 Git Merge, Rebase :
+
+https://learngitbranching.js.org/
+
+Project to Submit :
+
+https://docs.google.com/document/d/1Hm5pABxGPu1xOUB0P-2WA2siPD0uBkwU1vhaaDb-CKo/edit?tab=t.0
+
+
+Git notes:
+
+https://docs.google.com/document/d/1w-uU0vZOpT5Q1reABCt_raZedDG8CTEjNx8nNgI4dNc/edit?tab=t.0#heading=h.6gw7lgye8kq1
+
+git init :
+git commit :
+git branch :
+git merge :
+git rebase :
+
+// type .patch after thr commit id
+
+https://github.com/learnwithbapun/capstone/commit/00147af59608226b500dada4d04d607b80e2ee22.patch
 
